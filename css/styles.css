@@ -327,8 +327,8 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
 
 .team-subtitle {
     margin-bottom: 8px;
-    font-weight: 700;
-    font-size: 36px;
+    font-weight: 500;
+    font-size: 20px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
@@ -953,26 +953,13 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
         width: calc((100% - 24px) / 2);
     }
 
-    .features-icon-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 112px;
-        background-color: var(--cloud);
-        border-radius: 4px;
-        margin-bottom: 8px;
-        border: 1px solid var(--light-slate);
-    }
 
     .features-subtitle {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
         text-align: left;
     }
 
     .features-text {
-        font-weight: 400;
+        font-weight: 500;
         text-align: left;
     }
 
@@ -1058,9 +1045,26 @@ screen and (min-width: 1158px) and (min-resolution: 2dppx) {
         flex-wrap: nowrap;
     }
 
+    .features-icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: var(--cloud);
+        border-radius: 4px;
+        margin-bottom: 8px;
+        border: 1px solid var(--light-slate);
+    }
+
     .features-item,
     .team-item {
         width: calc((100% - 72px) / 4);
+    }
+
+    .features-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
     }
 
     .portfolio-list {
